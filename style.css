@@ -22,7 +22,22 @@
   background-color:green;
   color:black;
 }
-body{
+.column{
+  float:left;
+  width:33.33%;
+  padding:15px;
+}
+.row:after{
+  content:"";
+  display:table;
+  clear: both;
+}
+@media screen and (max-width:600px){
+  .column{
+    width:100%;
+  }
+}
+/* body{
   counter-reset: section;
   margin:0;
 }
@@ -36,4 +51,4 @@ h2{
 h3:before{
   counter-increment:subsection;
   content: "Section " counter(section)"." counter(subsection) ": "
-}
+} */
