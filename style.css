@@ -38,9 +38,17 @@
   clear: both;
 }
 @media screen and (max-width:600px){
-  .column{
+  .column.side{
     width:100%;
   }
+  .column.main-content{
+    width:100%;
+  }
+}
+.footer{
+  background-color:lightgray;
+  text-align: center;
+  padding:20px;
 }
 /* body{
   counter-reset: section;
