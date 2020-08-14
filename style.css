@@ -54,6 +54,12 @@
   padding:20px;
   font-size: 5vw;
 }
+.footer h1{
+  background-color:peachpuff;
+  text-align: center;
+  padding:20px;
+  font-size: 5vw;
+}
 /* body{
   counter-reset: section;
   margin:0;
